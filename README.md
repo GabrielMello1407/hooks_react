@@ -59,4 +59,4 @@ npm install
 Execute o projeto: Inicie o servidor de desenvolvimento:
 
 npm start
-O projeto será executado em http://localhost:3000.
+O projeto será executado em http://localhost:5173.
