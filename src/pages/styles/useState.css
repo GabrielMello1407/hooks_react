@@ -1,0 +1,76 @@
+/* Container principal */
+.container {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7f9;
+  color: #333;
+  padding: 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  line-height: 1.6;
+  transition: all 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Título */
+.title {
+  font-size: 2rem;
+  color: #4a90e2;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Descrição do hook */
+.description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Linha de separação */
+.divider {
+  border: 1px solid #e0e0e0;
+  margin: 20px 0;
+}
+
+/* Label do contador */
+.counterLabel {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Valor do contador */
+.counterValue {
+  font-size: 1.5rem;
+  color: #e94e77;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Botão de incrementar */
+.incrementButton {
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.incrementButton:hover {
+  background-color: #357ab7;
+  transform: scale(1.05);
+}
+
+.incrementButton:active {
+  background-color: #2b5e8a;
+}

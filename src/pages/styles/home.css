@@ -1,0 +1,56 @@
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.typing {
+  display: inline-block;
+  border-right: 4px solid #6c63ff;
+  padding-right: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(40) 1s 1 normal both, blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+.description {
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+  opacity: 0;
+  animation: fadeIn 2s 2s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,50 @@
+
+.container {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7f9;
+  color: #333;
+  padding: 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  line-height: 1.6;
+  transition: all 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  font-size: 2rem;
+  color: #4a90e2;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+
+.description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+
+.timeDisplay {
+  font-size: 1.5rem;
+  color: #e94e77;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+
+.explanation {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.7;
+  text-align: justify;
+  margin-top: 20px;
+}
