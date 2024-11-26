@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
       <div className="footer-content">
         <div className="social-links">
           <a
-            href="https://github.com/seu-usuario"
+            href="https://github.com/GabrielMello1407"
             target="_blank"
             rel="noopener noreferrer"
             className="social-link"
